@@ -7,6 +7,11 @@
   <a href="mailto:pakorn.c@ntplc.co.th">LET'S TALK ↗</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/pakornc2534"><img src="https://img.shields.io/badge/GitHub-pakornc2534-171B20?style=for-the-badge&amp;logo=github&amp;logoColor=F3F0E8" alt="GitHub: pakornc2534" /></a>
+  <a href="mailto:pakorn.c@ntplc.co.th"><img src="https://img.shields.io/badge/Email-Let%27s_Talk-FF683B?style=for-the-badge&amp;logo=gmail&amp;logoColor=171B20" alt="Email Pakorn" /></a>
+</p>
+
 ### สวัสดีครับ, I'm Pakorn.
 
 An **AI engineer and software builder at National Telecom PLC.**, with a background in enterprise data systems since 2014. I work across **computer vision, real-time voice agents, and full-stack applications** — from preparing the data to making the system usable.
@@ -15,7 +20,7 @@ My current deep dive: **teaching AI to recognize vehicles in real CCTV footage**
 
 ## Vehicle Vision
 
-<a href="VEHICLE_VISION.md"><img src="vehicle-vision.svg" alt="Vehicle Vision — flagship CCTV project. Evaluation on 1,042 human-reviewed images from 20 cameras; model development from MobileNetV3 to V4." width="100%" /></a>
+<a href="VEHICLE_VISION.md"><img src="vehicle-vision.svg" alt="Vehicle Vision — deployed in Ang Sila and Don Hua Lo, Chonburi. Flagship CCTV project. Evaluation on 1,042 human-reviewed images from 20 cameras; model development from MobileNetV3 to V4." width="100%" /></a>
 
 **DEPLOYED IN CHONBURI · Ang Sila & Don Hua Lo**  
 ใช้งานจริงในจังหวัดชลบุรี — อ่างศิลาและดอนหัวฬ่อ
@@ -46,7 +51,12 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 
 **[Read the engineering case study →](VEHICLE_VISION.md)**
 
-`PyTorch` `MobileNetV4` `Computer vision` `Human-in-the-loop` `Edge AI`
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Computer_Vision-171B20?style=for-the-badge" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=for-the-badge&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA Jetson" />
+</p>
 
 ## More things I build
 
@@ -112,6 +122,21 @@ At **National Telecom**, I've worked on enterprise CRM pipelines, customer infor
 <td width="33%" valign="top"><strong>MOVE & UNDERSTAND DATA</strong><br /><br />SQL Server · SSIS<br />Spark / PySpark · Kafka · Qdrant<br />Power BI · Tableau · HPC / Slurm</td>
 </tr>
 </table>
+
+### My tech stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-171B20?style=for-the-badge&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Supabase-1C4737?style=for-the-badge&amp;logo=supabase&amp;logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&amp;logo=apachespark&amp;logoColor=white" alt="Apache Spark" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&amp;logo=langchain&amp;logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" />
+</p>
 
 <details>
 <summary><strong>Education & credentials</strong></summary>
