@@ -17,11 +17,14 @@ My current deep dive: **teaching AI to recognize vehicles in real CCTV footage**
 
 <a href="VEHICLE_VISION.md"><img src="vehicle-vision.svg" alt="Vehicle Vision — flagship CCTV project. Evaluation on 1,042 human-reviewed images from 20 cameras; model development from MobileNetV3 to V4." width="100%" /></a>
 
+**DEPLOYED IN CHONBURI · Ang Sila & Don Hua Lo**  
+ใช้งานจริงในจังหวัดชลบุรี — อ่างศิลาและดอนหัวฬ่อ
+
 ### The hard part starts when the camera changes.
 
 Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model and data side** of Vehicle Vision: developing vehicle-brand and color classification, reviewing labels, testing across cameras, and preparing model packages for the deployment team targeting **NVIDIA Jetson AGX Orin**.
 
-**From a hackathon contribution to an ongoing model-development effort.** The work has progressed from MobileNetV3 to MobileNetV4, with human-review tools, duplicate screening, per-camera evaluation, and controlled experiments on difficult vehicle classes.
+**From a hackathon contribution to real-world deployment in Chonburi.** The work has progressed from MobileNetV3 to MobileNetV4, with human-review tools, duplicate screening, per-camera evaluation, and controlled experiments on difficult vehicle classes.
 
 <table>
 <tr>
@@ -39,7 +42,7 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 - **Experiments that explain the tradeoffs:** V3/V4 comparisons, frozen-encoder trials, targeted data additions, and reviews of which brands improve or regress.
 - **A practical handoff:** checkpoints, class maps, preprocessing, inference configuration, and evidence for the deployment team.
 
-**Latest · 14 Oct 2026** — Formula C selected for deployment-team testing. On the reused, AI-labeled development set, brand accuracy is **89.00% (704/791)** and color accuracy is **89.43% (770/861)**. Fresh-data validation remains the next test; Nissan regression is a known tradeoff.
+**Latest · 14 Oct 2026** — Continued model improvements for the deployed Vehicle Vision system, including Formula C. On the reused, AI-labeled development set, brand accuracy is **89.00% (704/791)** and color accuracy is **89.43% (770/861)**. Fresh-data validation remains the next test; Nissan regression is a known tradeoff.
 
 **[Read the engineering case study →](VEHICLE_VISION.md)**
 
