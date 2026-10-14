@@ -1,11 +1,15 @@
 # Vehicle Vision
 
-**CCTV vehicle recognition, from data quality to deployment handoff.**  
+**CCTV vehicle recognition deployed in Ang Sila and Don Hua Lo, Chonburi.**  
 Engineering case study · Pakorn Chompunut · Updated 14 October 2026
 
 [← Back to my profile](README.md)
 
 ![Vehicle Vision project cover](vehicle-vision.svg)
+
+## Live deployment
+
+Vehicle Vision is deployed in **Ang Sila (อ่างศิลา)** and **Don Hua Lo (ดอนหัวฬ่อ), Chonburi, Thailand**. My work supports the deployed system through model development, data quality, evaluation, and model updates.
 
 ## The problem
 
@@ -21,7 +25,7 @@ Vehicle Vision brings vehicle-brand and color recognition into a CCTV workflow. 
 | **Broader camera coverage** | New CCTV crops and review workflows, duplicate screening, separation of AI observations from human labels, and investigation of tracking/identity errors. |
 | **MobileNetV4 development** | Brand/color classification, controlled training recipes, checkpoint lineage, and comparisons with prior models on the same inputs. |
 | **Evaluation and handoff** | Per-camera and per-class reports; packages containing model weights, configuration, class maps, and inference instructions. |
-| **Current iteration** | Formula C selected for deployment-team testing after comparisons with v010A and other research variants. Further fresh-data testing is needed before claiming general improvement. |
+| **Current iteration** | Ongoing model improvements for the deployed system, including Formula C comparisons with v010A and other research variants. |
 
 ## A measured milestone: 20 cameras, 1,042 images
 
@@ -45,7 +49,7 @@ The v010A result represents **+32.53 percentage points in brand accuracy** compa
 
 ## Latest development: Formula C
 
-As of 14 October, Formula C has been selected for a deployment-team trial. The latest comparison against the v010A package used the **same reused development images with AI reference labels**:
+As of 14 October, model development includes Formula C. The latest comparison against the v010A package used the **same reused development images with AI reference labels**:
 
 | Model | Brand accuracy · 791 known-label images | Color accuracy · 861 known-label images |
 | :--- | ---: | ---: |
@@ -55,7 +59,7 @@ As of 14 October, Formula C has been selected for a deployment-team trial. The l
 
 Formula C adds 18 correct brand predictions net versus v010A: 22 corrected, 4 regressed. Its brand result improves in nine of ten cameras in this development comparison and decreases in one.
 
-**The tradeoff matters:** Nissan drops from 33/43 correct for v010A to 31/43 for C. Chevrolet stays at 9/16. Formula C did not pass every strict regression guard used during research. It is a candidate for team testing, not an established production replacement or evidence of independent generalization.
+**The tradeoff matters:** Nissan drops from 33/43 correct for v010A to 31/43 for C. Chevrolet stays at 9/16. Formula C did not pass every strict regression guard used during research. These development results do not establish independent generalization.
 
 The development set has been used repeatedly for tuning, uses AI reference labels, and includes correlated images. These percentages should not be mixed with the human-reviewed 1,042-image evaluation above or marketed as universal accuracy.
 
@@ -80,6 +84,6 @@ The development set has been used repeatedly for tuning, uses AI reference label
 
 ## Evidence behind this write-up
 
-This public summary was checked against the local project handoff and experiment artifacts: the 12 October per-model evaluation metrics, the 14 October controlled C/K comparison and subsequent head-only experiments, and the latest deployment-handoff request. It intentionally contains aggregate results and engineering context rather than raw CCTV data or access details.
+This public summary was checked against the local project handoff and experiment artifacts: the 12 October per-model evaluation metrics, the 14 October controlled C/K comparison and subsequent head-only experiments, and the latest deployment-handoff request. Deployment locations reflect the project owner’s update on 14 October 2026. It intentionally contains aggregate results and engineering context rather than raw CCTV data or access details.
 
 [Discuss the engineering →](mailto:pakorn.c@ntplc.co.th) · [Back to my profile →](README.md)
