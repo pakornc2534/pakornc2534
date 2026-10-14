@@ -1,152 +1,130 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Pakorn Chompunut — From data to intelligence. From ideas to working products." width="100%" />
-</p>
+<a href="#vehicle-vision"><img src="portfolio-hero.svg" alt="Pakorn Chompunut — Pixels. Data. Real-world AI. AI engineer, full stack and data engineering." width="100%" /></a>
 
 <p align="center">
-  <strong>AI Engineer · Full Stack & Data Engineering · Thailand</strong><br />
-  Real-time agents. Computer vision. Data systems that connect to the real world.
+  <a href="#vehicle-vision"><strong>FLAGSHIP WORK</strong></a> &nbsp; / &nbsp;
+  <a href="#more-things-i-build">MORE PROJECTS</a> &nbsp; / &nbsp;
+  <a href="#a-little-about-me">ABOUT ME</a> &nbsp; / &nbsp;
+  <a href="mailto:pakorn.c@ntplc.co.th">LET'S TALK ↗</a>
 </p>
 
-<p align="center">
-  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#the-journey">The journey</a> &nbsp; / &nbsp;
-  <a href="#toolbox">Toolbox</a> &nbsp; / &nbsp;
-  <a href="mailto:pakorn.c@ntplc.co.th">Let's connect</a>
-</p>
+### สวัสดีครับ, I'm Pakorn.
 
----
+An **AI engineer and software builder at National Telecom PLC.**, with a background in enterprise data systems since 2014. I work across **computer vision, real-time voice agents, and full-stack applications** — from preparing the data to making the system usable.
 
-### สวัสดีครับ — I'm Pakorn 👋
+My current deep dive: **teaching AI to recognize vehicles in real CCTV footage**, where a new camera angle can change everything.
 
-I build at the intersection of **data, AI, and useful software**. Since 2014, my work at **National Telecom PLC.** has spanned enterprise CRM pipelines, customer information systems, interactive web applications, and real-time AI agents.
+## Vehicle Vision
 
-Today, I focus on turning AI ideas into working experiences: voice systems that listen and respond, vision models that run at the edge, and applications grounded in real data. My MBA and IT background help me connect engineering decisions with business needs.
+<a href="VEHICLE_VISION.md"><img src="vehicle-vision.svg" alt="Vehicle Vision — flagship CCTV project. Evaluation on 1,042 human-reviewed images from 20 cameras; model development from MobileNetV3 to V4." width="100%" /></a>
 
-> **จากข้อมูล สู่ AI ที่ใช้งานได้จริง** — ผมชอบสร้างระบบที่เชื่อมเทคโนโลยีเข้ากับโจทย์ธุรกิจ และถ่ายทอดความรู้ให้คนอื่นนำไปต่อยอดได้
+### The hard part starts when the camera changes.
 
-<a id="selected-work"></a>
-## Selected work
+Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model and data side** of Vehicle Vision: developing vehicle-brand and color classification, reviewing labels, testing across cameras, and preparing model packages for the deployment team targeting **NVIDIA Jetson AGX Orin**.
+
+**From a hackathon contribution to an ongoing model-development effort.** The work has progressed from MobileNetV3 to MobileNetV4, with human-review tools, duplicate screening, per-camera evaluation, and controlled experiments on difficult vehicle classes.
+
+<table>
+<tr>
+<td width="33%" align="center"><h3>81.29%</h3><strong>Vehicle brand</strong><br /><sub>847 / 1,042 images</sub></td>
+<td width="33%" align="center"><h3>88.29%</h3><strong>Vehicle color</strong><br /><sub>920 / 1,042 images</sub></td>
+<td width="33%" align="center"><h3>20 cameras</h3><strong>Same-image comparison</strong><br /><sub>Human-reviewed reference labels</sub></td>
+</tr>
+</table>
+
+<sub>MobileNetV4 v010A · 12 Oct 2026 evaluation · image-level top-1, all 1,042 available vehicle images, no confidence filtering. Brand accuracy was 48.75% for the evaluated V3 checkpoint on these same images. This is an evaluation result, not a claim of live-system accuracy or Jetson speed.</sub>
+
+**What I bring to the work**
+
+- **Data that can be checked:** AI-assisted labeling with human review, duplicate audits, and explicit train/dev/evaluation boundaries.
+- **Experiments that explain the tradeoffs:** V3/V4 comparisons, frozen-encoder trials, targeted data additions, and reviews of which brands improve or regress.
+- **A practical handoff:** checkpoints, class maps, preprocessing, inference configuration, and evidence for the deployment team.
+
+**Latest · 14 Oct 2026** — Formula C selected for deployment-team testing. On the reused, AI-labeled development set, brand accuracy is **89.00% (704/791)** and color accuracy is **89.43% (770/861)**. Fresh-data validation remains the next test; Nissan regression is a known tradeoff.
+
+**[Read the engineering case study →](VEHICLE_VISION.md)**
+
+`PyTorch` `MobileNetV4` `Computer vision` `Human-in-the-loop` `Edge AI`
+
+## More things I build
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 01 / TripChan 🧭
-**A bilingual AI guide for Chanthaburi**
+<a href="https://github.com/pakornc2534/chanthaburi-ai-guide"><img src="tripchan.svg" alt="TripChan — bilingual AI travel guide for Chanthaburi" width="100%" /></a>
 
-Explore a 49-place catalog through Thai/English AI chat and generate structured 1–3 day itineraries. Includes a check-in, review, and rewards proof of concept.
+### An AI guide with local knowledge.
+
+**TripChan** helps people explore Chanthaburi through Thai/English chat grounded in a **49-place catalog**, structured 1–3 day itineraries, and a check-in/rewards POC.
 
 `Agentic RAG` `React` `TypeScript` `Supabase`
 
-[Explore the code ↗](https://github.com/pakornc2534/chanthaburi-ai-guide)
+**[Explore TripChan ↗](https://github.com/pakornc2534/chanthaburi-ai-guide)**
 
 </td>
 <td width="50%" valign="top">
 
-### 02 / ElderCare Guardian 🛡️
-**Privacy-first care workflow prototype**
+<a href="https://github.com/pakornc2534/guardian-thai-ai"><img src="eldercare.svg" alt="ElderCare Guardian — privacy-first care workflow prototype" width="100%" /></a>
 
-A product demo exploring camera-free elder monitoring, risk explanations, alert escalation, and Thai voicebot outreach through simulated scenarios.
+### Turn risk signals into care workflows.
 
-`React` `TypeScript` `Vite` `Recharts`
+**ElderCare Guardian** explores camera-free monitoring, explainable risk signals, escalation, and Thai voicebot outreach. An interactive product prototype using **simulated sensors and calls**.
 
-[Explore the code ↗](https://github.com/pakornc2534/guardian-thai-ai)
+`React` `TypeScript` `Recharts` `Product prototyping`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 03 / DataOps Pipeline ⚙️
-**From raw loan data to SQL Server**
-
-A Python ETL project with data cleaning, fact/dimension modeling, unit tests, and Jenkins pipeline orchestration.
-
-`Python` `pandas` `SQL Server` `Jenkins`
-
-[Explore the code ↗](https://github.com/pakornc2534/dataops-foundation-jenkins-new)
-
-</td>
-<td width="50%" valign="top">
-
-### 04 / Vehicle Vision 🚘
-**Computer vision from training to edge handoff**
-
-Model-team contributor to a CCTV project deployed on NVIDIA Jetson Orin at Ang Sila Town Municipality, Chonburi. Worked on dataset quality, group-aware splits, model evaluation, and deployment artifacts.
-
-`PyTorch` `MobileNetV3` `NVIDIA A100` `Jetson Orin`
-
-Professional contribution · Super AI Engineer Season 6
+**[Explore Guardian ↗](https://github.com/pakornc2534/guardian-thai-ai)**
 
 </td>
 </tr>
 </table>
 
-<details>
-<summary><strong>Behind the work — implementation details & scope</strong></summary>
+**Also in my workshop**
 
-- **TripChan:** intent classification and place selection precede retrieval and streamed responses; place cards link back to catalog entries. The rewards flow is a local-state POC.
-- **ElderCare Guardian:** local mock state and simulated sensors, risk scores, and calls. A care decision-support demo; clinical validation and live integrations are outside its current scope.
-- **DataOps:** cleans CSV loan data, models fact and dimension tables, and runs tests before database deployment through Jenkins.
-- **Vehicle Vision:** contributed to a **14,461-record dataset** and a MobileNetV3 Large multi-task model covering **33 vehicle brands / 8 colors**. Reported model test accuracy: **76.01% brand / 92.08% color**. These are holdout model results, not end-to-end deployment metrics.
+- **[DataOps Pipeline ↗](https://github.com/pakornc2534/dataops-foundation-jenkins-new)** — loan CSV → cleaning → fact/dimension tables → SQL Server, with Python tests and Jenkins orchestration.
+- **REDACTRA** — co-developed local-first privacy workflows for vendor assessment, DPA, risk, and DPIA; human review before data leaves the system.
+- **Prompy / NT AIoT Smart Home** — coached Team Prompt on Thai voice control, Home Assistant/Tuya, and vision/audio sensing.
+- **Real-time multimodal agents** — connecting STT → LLM → TTS through LiveKit / WebRTC.
 
-</details>
+## Recognition along the way
 
-### More things I've helped bring to life
-
-| Project / contribution | My focus |
+| 2026 | 2025 |
 | :--- | :--- |
-| **REDACTRA** · Aug 2026 | Co-developed local-first privacy workflows connecting vendor assessment, DPA, risk, and DPIA, with human review before data leaves the system. |
-| **Prompy — NT AIoT Smart Home** · Aug 2026 | Coached Team Prompt on a Thai voice assistant integrating Home Assistant, Tuya, MoveNet fall detection, and YAMNet baby-cry detection. |
-| **Real-Time Multimodal AI Agents Framework** | STT → LLM → TTS pipeline with LiveKit / WebRTC for real-time voice interaction. |
+| **Bronze Medal** · Super AI Engineer Season 6<br />Vehicle Vision | **Winner** · NT Big Idea<br />AI Service Solution |
+| **Popular Vote** · PDPA Hackathon by PDPC<br />REDACTRA | **First Runner-up** · NT Agentic AI Hackathon<br />Real-Time Multimodal AI Agents Framework |
+| **Honorable Mention** · OpenAI × AIAT Hackathon<br />Life Guardian | |
+| **Finalist** · Dictionary Reimagined Hackathon<br />Office of the Royal Society × NECTEC | |
 
-<a id="the-journey"></a>
-## The journey
+## A little about me
 
-**2014 → now · Build**  
-Senior Computer Specialist at **National Telecom PLC.** — enterprise data pipelines, customer information systems, web applications, and multi-agent AI.
+**Build → test → explain → improve.** That's the part of engineering I enjoy: turning an idea into something people can inspect, use, and make better.
 
-**2024 → now · Share**  
-In-house instructor at **National Telecom Academy** — *AI for Work: Generative AI 101*, *Storytelling with Data*, and *UX/UI Design*.
+At **National Telecom**, I've worked on enterprise CRM pipelines, customer information systems, and interactive applications since 2014. Since 2024, I've also taught **Generative AI, data storytelling, and UX/UI** at National Telecom Academy.
 
-**2025 → 2026 · Explore & compete**
+> ผมชอบงานที่ได้ลงมือทั้งข้อมูล โมเดล และระบบ — แล้วอธิบายให้คนใช้และทีมที่รับช่วงต่อเข้าใจได้จริง
 
-| When | Recognition | Project / event |
-| :--- | :--- | :--- |
-| Sep 2026 | 🥉 Bronze Medal | Super AI Engineer Season 6 · Vehicle Vision |
-| Sep 2026 | Finalist | Dictionary Reimagined Hackathon · Office of the Royal Society × NECTEC |
-| Aug 2026 | 🗳️ Popular Vote | PDPA Hackathon 2026 by PDPC · REDACTRA |
-| May 2026 | Honorable Mention | OpenAI × AIAT Hackathon · Life Guardian |
-| Oct 2025 | 🥈 First Runner-up | NT Agentic AI Hackathon · Real-Time Multimodal AI Agents Framework |
-| Sep 2025 | 🏆 Winner | NT Big Idea · AI Service Solution |
-
-<a id="toolbox"></a>
-## Toolbox
-
-| Area | Technologies I work with |
-| :--- | :--- |
-| **AI & computer vision** | Python · PyTorch · multi-task learning · model evaluation |
-| **Agents & voice** | LangChain · LiveKit / WebRTC · STT / LLM / TTS · MCP · n8n |
-| **Full stack** | ASP.NET · Next.js · React · TypeScript |
-| **Data & analytics** | SQL Server · SSIS · PySpark / Spark · Kafka · Qdrant · Power BI · Tableau |
-| **Deployment & compute** | Docker · Git · CI/CD · NVIDIA Jetson Orin · HPC / Slurm |
+<table>
+<tr>
+<td width="33%" valign="top"><strong>SEE & LISTEN</strong><br /><br />Python · PyTorch<br />LangChain · LiveKit<br />STT / LLM / TTS · MCP · n8n</td>
+<td width="34%" valign="top"><strong>BUILD & CONNECT</strong><br /><br />ASP.NET · Next.js<br />React · TypeScript<br />Docker · Git · CI/CD</td>
+<td width="33%" valign="top"><strong>MOVE & UNDERSTAND DATA</strong><br /><br />SQL Server · SSIS<br />Spark / PySpark · Kafka · Qdrant<br />Power BI · Tableau · HPC / Slurm</td>
+</tr>
+</table>
 
 <details>
 <summary><strong>Education & credentials</strong></summary>
 
-- **MBA** — Ramkhamhaeng University
-- **B.Sc. in Information Technology** — Rangsit University
-- **HCCDA-AI Developer Certification** — Huawei Cloud
-- **Super AI Engineer Season 6** — AI Association of Thailand (AIAT)
-- **Languages:** Thai · English (TOEIC 635)
+MBA — Ramkhamhaeng University · B.Sc. Information Technology — Rangsit University  
+HCCDA-AI Developer — Huawei Cloud · Super AI Engineer Season 6 — AIAT  
+Thai · English (TOEIC 635)
 
 </details>
 
 ---
 
-<p align="center">
-  <strong>Let's turn a good problem into something useful.</strong><br />
-  AI agents · computer vision · data engineering · knowledge sharing<br /><br />
-  <a href="mailto:pakorn.c@ntplc.co.th">pakorn.c@ntplc.co.th</a> &nbsp; · &nbsp;
-  <a href="https://github.com/pakornc2534?tab=repositories">Browse all repositories ↗</a>
-</p>
+### Have a real-world AI problem in mind?
+
+I'm interested in conversations about **computer vision, real-time agents, data engineering, and making AI useful in practice**.
+
+**[Let's talk ↗](mailto:pakorn.c@ntplc.co.th)** &nbsp; · &nbsp; **[Browse my repositories ↗](https://github.com/pakornc2534?tab=repositories)**
+
+<sub>Pakorn Chompunut · ภากร ชมภูนุช · Bangkok, Thailand</sub>
