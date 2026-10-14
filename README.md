@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pakornc2534/pakornc2534/main/assets/profile-banner.svg" alt="Pakorn Chompunut — From data to intelligence. From ideas to working products." width="100%" />
+  <img src="assets/profile-banner.svg" alt="Pakorn Chompunut — From data to intelligence. From ideas to working products." width="100%" />
 </p>
 
 <p align="center">
