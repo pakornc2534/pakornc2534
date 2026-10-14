@@ -115,27 +115,64 @@ At **National Telecom**, I've worked on enterprise CRM pipelines, customer infor
 
 > ผมชอบงานที่ได้ลงมือทั้งข้อมูล โมเดล และระบบ — แล้วอธิบายให้คนใช้และทีมที่รับช่วงต่อเข้าใจได้จริง
 
-<table>
-<tr>
-<td width="33%" valign="top"><strong>SEE & LISTEN</strong><br /><br />Python · PyTorch<br />LangChain · LiveKit<br />STT / LLM / TTS · MCP · n8n</td>
-<td width="34%" valign="top"><strong>BUILD & CONNECT</strong><br /><br />ASP.NET · Next.js<br />React · TypeScript<br />Docker · Git · CI/CD</td>
-<td width="33%" valign="top"><strong>MOVE & UNDERSTAND DATA</strong><br /><br />SQL Server · SSIS<br />Spark / PySpark · Kafka · Qdrant<br />Power BI · Tableau · HPC / Slurm</td>
-</tr>
-</table>
-
 ### My tech stack
 
+**AI & REAL-TIME AGENTS**
+
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-171B20?style=for-the-badge&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Supabase-1C4737?style=for-the-badge&amp;logo=supabase&amp;logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&amp;logo=apachespark&amp;logoColor=white" alt="Apache Spark" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&amp;logo=langchain&amp;logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Python-171B20?style=for-the-badge&amp;logo=python&amp;logoColor=F3F0E8" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-171B20?style=for-the-badge&amp;logo=pytorch&amp;logoColor=F3F0E8" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/LangChain-171B20?style=for-the-badge&amp;logo=langchain&amp;logoColor=F3F0E8" alt="LangChain" />
+  <img src="https://img.shields.io/badge/LangFlow-171B20?style=for-the-badge" alt="LangFlow" />
+  <img src="https://img.shields.io/badge/LiveKit%20%2F%20WebRTC-171B20?style=for-the-badge" alt="LiveKit / WebRTC" />
+  <img src="https://img.shields.io/badge/n8n-171B20?style=for-the-badge&amp;logo=n8n&amp;logoColor=F3F0E8" alt="n8n" />
+  <img src="https://img.shields.io/badge/MCP-171B20?style=for-the-badge" alt="MCP" />
+</p>
+
+**FULL-STACK DEVELOPMENT**
+
+<p>
+  <img src="https://img.shields.io/badge/ASP.NET-303840?style=for-the-badge&amp;logo=dotnet&amp;logoColor=F3F0E8" alt="ASP.NET" />
+  <img src="https://img.shields.io/badge/Next.js-303840?style=for-the-badge&amp;logo=nextdotjs&amp;logoColor=F3F0E8" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-303840?style=for-the-badge&amp;logo=react&amp;logoColor=F3F0E8" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-303840?style=for-the-badge&amp;logo=typescript&amp;logoColor=F3F0E8" alt="TypeScript" />
+</p>
+
+**DATA ENGINEERING & STORAGE**
+
+<p>
+  <img src="https://img.shields.io/badge/SQL%20Server-24534B?style=for-the-badge" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/SSIS-24534B?style=for-the-badge" alt="SSIS" />
+  <img src="https://img.shields.io/badge/Apache%20Spark-24534B?style=for-the-badge&amp;logo=apachespark&amp;logoColor=F3F0E8" alt="Apache Spark" />
+  <img src="https://img.shields.io/badge/PySpark-24534B?style=for-the-badge" alt="PySpark" />
+  <img src="https://img.shields.io/badge/Apache%20Kafka-24534B?style=for-the-badge&amp;logo=apachekafka&amp;logoColor=F3F0E8" alt="Apache Kafka" />
+  <img src="https://img.shields.io/badge/Qdrant-24534B?style=for-the-badge&amp;logo=qdrant&amp;logoColor=F3F0E8" alt="Qdrant" />
+</p>
+
+**DATA VISUALIZATION**
+
+<p>
+  <img src="https://img.shields.io/badge/Power%20BI-524465?style=for-the-badge" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Tableau-524465?style=for-the-badge" alt="Tableau" />
+  <img src="https://img.shields.io/badge/Data%20Storytelling-524465?style=for-the-badge" alt="Data Storytelling" />
+</p>
+
+**DEPLOYMENT & COMPUTE**
+
+<p>
+  <img src="https://img.shields.io/badge/Docker-171B20?style=for-the-badge&amp;logo=docker&amp;logoColor=F3F0E8" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-171B20?style=for-the-badge&amp;logo=git&amp;logoColor=F3F0E8" alt="Git" />
+  <img src="https://img.shields.io/badge/CI%2FCD-171B20?style=for-the-badge" alt="CI/CD" />
+  <img src="https://img.shields.io/badge/NVIDIA%20Jetson-171B20?style=for-the-badge&amp;logo=nvidia&amp;logoColor=F3F0E8" alt="NVIDIA Jetson" />
+  <img src="https://img.shields.io/badge/HPC%20%2F%20Slurm-171B20?style=for-the-badge" alt="HPC / Slurm" />
+</p>
+
+### Certifications & learning
+
+<p>
+  <img src="https://img.shields.io/badge/Huawei%20Cloud%20%7C%20HCCDA-AI%20Developer-FF683B?style=for-the-badge&amp;logo=huawei&amp;logoColor=171B20" alt="Huawei Cloud | HCCDA-AI Developer" />
+  <img src="https://img.shields.io/badge/AIAT%20%7C%20Super%20AI%20Engineer%20S6-24534B?style=for-the-badge" alt="AIAT | Super AI Engineer S6" />
+  <img src="https://img.shields.io/badge/English%20%7C%20TOEIC%20635-524465?style=for-the-badge" alt="English | TOEIC 635" />
 </p>
 
 <details>
