@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="portfolio-hero-mobile.svg" />
-  <img src="portfolio-hero.svg?v=3" alt="Pakorn Chompunut — AI engineer. Systems builder. Vision, voice and data." width="100%" />
+  <img src="portfolio-cover.svg" alt="Pakorn Chompunut — AI engineer. Systems builder. Vision, voice and data." width="100%" />
 </picture>
 
 <p align="center">
@@ -112,7 +112,7 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 **Ideas built. Work recognized.** Six recognitions across AI, data privacy, and real-world applications — 2025–2026.
 
 <picture>
-  <source media="(max-width: 600px)" srcset="recognition-mobile.svg?v=2" />
+  <source media="(max-width: 600px)" srcset="recognition-phone.svg" />
   <img src="recognition.svg" alt="2026: Bronze Medal — Super AI Engineer Season 6, Vehicle Vision; Popular Vote — PDPA Hackathon, REDACTRA; Honorable Mention — OpenAI × AIAT, Life Guardian; Finalist — Dictionary Reimagined. 2025: Winner — NT Big Idea, AI Service Solution; First Runner-up — NT Agentic AI Hackathon, Real-Time Multimodal AI Agents." width="100%" />
 </picture>
 
