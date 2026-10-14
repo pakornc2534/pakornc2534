@@ -170,7 +170,7 @@ At **National Telecom**, I've worked on enterprise CRM pipelines, customer infor
 ### Certifications & learning
 
 <p>
-  <img src="https://img.shields.io/badge/Huawei%20Cloud%20%7C%20HCCDA-AI%20Developer-FF683B?style=for-the-badge&amp;logo=huawei&amp;logoColor=171B20" alt="Huawei Cloud | HCCDA-AI Developer" />
+  <img src="https://img.shields.io/badge/Huawei%20Cloud%20%7C%20HCCDA--AI%20Developer-FF683B?style=for-the-badge&amp;logo=huawei&amp;logoColor=171B20" alt="Huawei Cloud | HCCDA-AI Developer" />
   <img src="https://img.shields.io/badge/AIAT%20%7C%20Super%20AI%20Engineer%20S6-24534B?style=for-the-badge" alt="AIAT | Super AI Engineer S6" />
   <img src="https://img.shields.io/badge/English%20%7C%20TOEIC%20635-524465?style=for-the-badge" alt="English | TOEIC 635" />
 </p>
