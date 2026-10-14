@@ -1,4 +1,7 @@
-<a href="#vehicle-vision"><img src="portfolio-hero.svg" alt="Pakorn Chompunut — Pixels. Data. Real-world AI. AI engineer, full stack and data engineering." width="100%" /></a>
+<picture>
+  <source media="(max-width: 600px)" srcset="portfolio-hero-mobile.svg" />
+  <img src="portfolio-hero.svg" alt="Pakorn Chompunut — AI engineer. Systems builder. Vision, voice and data." width="100%" />
+</picture>
 
 <p align="center">
   <a href="#vehicle-vision"><strong>FLAGSHIP WORK</strong></a> &nbsp; / &nbsp;
@@ -61,10 +64,6 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 
 ## More things I build
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 <a href="https://github.com/pakornc2534/chanthaburi-ai-guide"><img src="tripchan.svg" alt="TripChan — bilingual AI travel guide for Chanthaburi" width="100%" /></a>
 
 ### An AI guide with local knowledge.
@@ -80,8 +79,8 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 
 **[Explore TripChan ↗](https://github.com/pakornc2534/chanthaburi-ai-guide)**
 
-</td>
-<td width="50%" valign="top">
+
+
 
 <a href="https://github.com/pakornc2534/guardian-thai-ai"><img src="eldercare.svg" alt="ElderCare Guardian — privacy-first care workflow prototype" width="100%" /></a>
 
@@ -98,10 +97,6 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 
 **[Explore Guardian ↗](https://github.com/pakornc2534/guardian-thai-ai)**
 
-</td>
-</tr>
-</table>
-
 **Also in my workshop**
 
 - **[DataOps Pipeline ↗](https://github.com/pakornc2534/dataops-foundation-jenkins-new)** — loan CSV → cleaning → fact/dimension tables → SQL Server, with Python tests and Jenkins orchestration.
@@ -113,73 +108,10 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 
 **Ideas built. Work recognized.** Six recognitions across AI, data privacy, and real-world applications — 2025–2026.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/BRONZE%20MEDAL-SEP%202026-C48351?style=for-the-badge&amp;labelColor=171B20" alt="BRONZE MEDAL · SEP 2026" />
-
-### Super AI Engineer Season 6
-
-**Vehicle Vision**  
-<sub>National Workforce Transformation 2026</sub>
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/WINNER-SEP%202025-FF683B?style=for-the-badge&amp;labelColor=171B20" alt="WINNER · SEP 2025" />
-
-### NT Big Idea
-
-**AI Service Solution**  
-<sub>National Telecom</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/POPULAR%20VOTE-AUG%202026-24534B?style=for-the-badge&amp;labelColor=171B20" alt="POPULAR VOTE · AUG 2026" />
-
-### PDPA Hackathon by PDPC
-
-**REDACTRA**  
-<sub>Personal data protection innovation</sub>
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/FIRST%20RUNNER--UP-OCT%202025-647481?style=for-the-badge&amp;labelColor=171B20" alt="FIRST RUNNER-UP · OCT 2025" />
-
-### NT Agentic AI Hackathon
-
-**Real-Time Multimodal AI Agents Framework**  
-<sub>STT → LLM → TTS</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/HONORABLE%20MENTION-MAY%202026-524465?style=for-the-badge&amp;labelColor=171B20" alt="HONORABLE MENTION · MAY 2026" />
-
-### OpenAI × AIAT Hackathon
-
-**Life Guardian**  
-<sub>Multi-AI agents for wellness</sub>
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/FINALIST-SEP%202026-24534B?style=for-the-badge&amp;labelColor=171B20" alt="FINALIST · SEP 2026" />
-
-### Dictionary Reimagined Hackathon
-
-**Office of the Royal Society × NECTEC**
-
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(max-width: 600px)" srcset="recognition-mobile.svg" />
+  <img src="recognition.svg" alt="2026: Bronze Medal — Super AI Engineer Season 6, Vehicle Vision; Popular Vote — PDPA Hackathon, REDACTRA; Honorable Mention — OpenAI × AIAT, Life Guardian; Finalist — Dictionary Reimagined. 2025: Winner — NT Big Idea, AI Service Solution; First Runner-up — NT Agentic AI Hackathon, Real-Time Multimodal AI Agents." width="100%" />
+</picture>
 
 ## A little about me
 
