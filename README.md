@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="portfolio-hero-mobile.svg" />
-  <img src="portfolio-hero.svg" alt="Pakorn Chompunut — AI engineer. Systems builder. Vision, voice and data." width="100%" />
+  <img src="portfolio-hero.svg?v=3" alt="Pakorn Chompunut — AI engineer. Systems builder. Vision, voice and data." width="100%" />
 </picture>
 
 <p align="center">
@@ -24,7 +24,10 @@ My current deep dive: **teaching AI to recognize vehicles in real CCTV footage**
 
 ## Vehicle Vision
 
-<a href="VEHICLE_VISION.md"><img src="vehicle-vision.svg" alt="Vehicle Vision — deployed in Ang Sila and Don Hua Lo, Chonburi. Flagship CCTV project. Evaluation on 1,042 human-reviewed images from 20 cameras; model development from MobileNetV3 to V4." width="100%" /></a>
+<a href="VEHICLE_VISION.md"><picture>
+  <source media="(max-width: 600px)" srcset="vehicle-vision-mobile.svg" />
+  <img src="vehicle-vision.svg" alt="Vehicle Vision — deployed in Ang Sila and Don Hua Lo, Chonburi. 1,042 reviewed images and 20 cameras in evaluation." width="100%" />
+</picture></a>
 
 **DEPLOYED IN CHONBURI · Ang Sila & Don Hua Lo**  
 ใช้งานจริงในจังหวัดชลบุรี — อ่างศิลาและดอนหัวฬ่อ
@@ -109,7 +112,7 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 **Ideas built. Work recognized.** Six recognitions across AI, data privacy, and real-world applications — 2025–2026.
 
 <picture>
-  <source media="(max-width: 600px)" srcset="recognition-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="recognition-mobile.svg?v=2" />
   <img src="recognition.svg" alt="2026: Bronze Medal — Super AI Engineer Season 6, Vehicle Vision; Popular Vote — PDPA Hackathon, REDACTRA; Honorable Mention — OpenAI × AIAT, Life Guardian; Finalist — Dictionary Reimagined. 2025: Winner — NT Big Idea, AI Service Solution; First Runner-up — NT Agentic AI Hackathon, Real-Time Multimodal AI Agents." width="100%" />
 </picture>
 
