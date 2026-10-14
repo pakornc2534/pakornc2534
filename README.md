@@ -24,10 +24,10 @@ My current deep dive: **teaching AI to recognize vehicles in real CCTV footage**
 
 ## Vehicle Vision
 
-<a href="VEHICLE_VISION.md"><picture>
+<picture>
   <source media="(max-width: 600px)" srcset="vehicle-vision-mobile.svg" />
   <img src="vehicle-vision.svg" alt="Vehicle Vision — deployed in Ang Sila and Don Hua Lo, Chonburi. 1,042 reviewed images and 20 cameras in evaluation." width="100%" />
-</picture></a>
+</picture>
 
 **DEPLOYED IN CHONBURI · Ang Sila & Don Hua Lo**  
 ใช้งานจริงในจังหวัดชลบุรี — อ่างศิลาและดอนหัวฬ่อ
