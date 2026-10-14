@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Pakorn Chompunut — AI Engineer</title>
+  <desc id="desc">From data to intelligence. From ideas to working products. Navy and mint portfolio banner.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081321"/><stop offset="1" stop-color="#122e3c"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#6ee7c0"/><stop offset="1" stop-color="#64caff"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#86b3c4" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+  <path d="M0 418H1280" stroke="url(#accent)" stroke-width="4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="60" y="44" width="300" height="30" rx="15" fill="#6ee7c0" fill-opacity=".1" stroke="#6ee7c0" stroke-opacity=".35"/>
+    <circle cx="78" cy="59" r="4" fill="#6ee7c0"/>
+    <text x="91" y="64" fill="#a4eed8" font-size="12" letter-spacing="2">ENGINEER / BUILDER / EDUCATOR</text>
+    <text x="60" y="148" fill="#f2f7fb" font-size="60" font-weight="700" letter-spacing="-2">PAKORN</text>
+    <text x="60" y="210" fill="#f2f7fb" font-size="60" font-weight="700" letter-spacing="-2">CHOMPUNUT<tspan fill="#6ee7c0">.</tspan></text>
+    <text x="63" y="258" fill="#a7c0d0" font-size="19">AI ENGINEER  /  FULL STACK  /  DATA ENGINEERING</text>
+    <text x="63" y="322" fill="#dce9f2" font-size="23">From data to intelligence.</text>
+    <text x="63" y="354" fill="#dce9f2" font-size="23">From ideas to working products.</text>
+    <text x="1208" y="377" text-anchor="end" fill="#86a6b7" font-size="13" letter-spacing="2">BANGKOK, THAILAND</text>
+  </g>
+  <g transform="translate(840 82)">
+    <circle cx="166" cy="117" r="143" fill="none" stroke="#6ee7c0" stroke-opacity=".13"/>
+    <circle cx="166" cy="117" r="101" fill="none" stroke="#64caff" stroke-opacity=".2" stroke-dasharray="5 9"/>
+    <path d="M25 30L166 117 307 30M25 204L166 117 307 204M25 30V204M307 30V204" fill="none" stroke="url(#accent)" stroke-opacity=".48" stroke-width="2"/>
+    <g fill="#122c3b" stroke="#6ee7c0" stroke-width="2"><rect x="-2" y="3" width="54" height="54" rx="14"/><rect x="280" y="3" width="54" height="54" rx="14"/><rect x="-2" y="177" width="54" height="54" rx="14"/><rect x="280" y="177" width="54" height="54" rx="14"/></g>
+    <rect x="116" y="67" width="100" height="100" rx="26" fill="#6ee7c0"/>
+    <g font-family="monospace" font-weight="700" text-anchor="middle"><text x="166" y="133" font-size="42" fill="#0b2030">AI</text><text x="25" y="38" font-size="23" fill="#a4eed8">&lt;/&gt;</text><text x="307" y="38" font-size="22" fill="#a4eed8">DB</text><text x="25" y="212" font-size="22" fill="#a4eed8">CV</text><text x="307" y="212" font-size="22" fill="#a4eed8">VOX</text></g>
+  </g>
+</svg>
