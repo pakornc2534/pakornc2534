@@ -3,6 +3,7 @@
 <p align="center">
   <a href="#vehicle-vision"><strong>FLAGSHIP WORK</strong></a> &nbsp; / &nbsp;
   <a href="#more-things-i-build">MORE PROJECTS</a> &nbsp; / &nbsp;
+  <a href="#recognition-along-the-way"><strong>RECOGNITION</strong></a> &nbsp; / &nbsp;
   <a href="#a-little-about-me">ABOUT ME</a> &nbsp; / &nbsp;
   <a href="mailto:pakorn.c@ntplc.co.th">LET'S TALK ↗</a>
 </p>
@@ -70,7 +71,12 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 
 **TripChan** helps people explore Chanthaburi through Thai/English chat grounded in a **49-place catalog**, structured 1–3 day itineraries, and a check-in/rewards POC.
 
-`Agentic RAG` `React` `TypeScript` `Supabase`
+<p>
+<img src="https://img.shields.io/badge/Agentic%20RAG-24534B?style=flat-square" alt="Agentic RAG" />
+<img src="https://img.shields.io/badge/React-24534B?style=flat-square" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-24534B?style=flat-square" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Supabase-24534B?style=flat-square" alt="Supabase" />
+</p>
 
 **[Explore TripChan ↗](https://github.com/pakornc2534/chanthaburi-ai-guide)**
 
@@ -83,7 +89,12 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 
 **ElderCare Guardian** explores camera-free monitoring, explainable risk signals, escalation, and Thai voicebot outreach. An interactive product prototype using **simulated sensors and calls**.
 
-`React` `TypeScript` `Recharts` `Product prototyping`
+<p>
+<img src="https://img.shields.io/badge/React-524465?style=flat-square" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-524465?style=flat-square" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Recharts-524465?style=flat-square" alt="Recharts" />
+<img src="https://img.shields.io/badge/Product%20prototyping-524465?style=flat-square" alt="Product prototyping" />
+</p>
 
 **[Explore Guardian ↗](https://github.com/pakornc2534/guardian-thai-ai)**
 
@@ -100,12 +111,75 @@ Small crops. Unfamiliar angles. Similar-looking brands. I work on the **model an
 
 ## Recognition along the way
 
-| 2026 | 2025 |
-| :--- | :--- |
-| **Bronze Medal** · Super AI Engineer Season 6<br />Vehicle Vision | **Winner** · NT Big Idea<br />AI Service Solution |
-| **Popular Vote** · PDPA Hackathon by PDPC<br />REDACTRA | **First Runner-up** · NT Agentic AI Hackathon<br />Real-Time Multimodal AI Agents Framework |
-| **Honorable Mention** · OpenAI × AIAT Hackathon<br />Life Guardian | |
-| **Finalist** · Dictionary Reimagined Hackathon<br />Office of the Royal Society × NECTEC | |
+**Ideas built. Work recognized.** Six recognitions across AI, data privacy, and real-world applications — 2025–2026.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/BRONZE%20MEDAL-SEP%202026-C48351?style=for-the-badge&amp;labelColor=171B20" alt="BRONZE MEDAL · SEP 2026" />
+
+### Super AI Engineer Season 6
+
+**Vehicle Vision**  
+<sub>National Workforce Transformation 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/WINNER-SEP%202025-FF683B?style=for-the-badge&amp;labelColor=171B20" alt="WINNER · SEP 2025" />
+
+### NT Big Idea
+
+**AI Service Solution**  
+<sub>National Telecom</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/POPULAR%20VOTE-AUG%202026-24534B?style=for-the-badge&amp;labelColor=171B20" alt="POPULAR VOTE · AUG 2026" />
+
+### PDPA Hackathon by PDPC
+
+**REDACTRA**  
+<sub>Personal data protection innovation</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/FIRST%20RUNNER--UP-OCT%202025-647481?style=for-the-badge&amp;labelColor=171B20" alt="FIRST RUNNER-UP · OCT 2025" />
+
+### NT Agentic AI Hackathon
+
+**Real-Time Multimodal AI Agents Framework**  
+<sub>STT → LLM → TTS</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/HONORABLE%20MENTION-MAY%202026-524465?style=for-the-badge&amp;labelColor=171B20" alt="HONORABLE MENTION · MAY 2026" />
+
+### OpenAI × AIAT Hackathon
+
+**Life Guardian**  
+<sub>Multi-AI agents for wellness</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/FINALIST-SEP%202026-24534B?style=for-the-badge&amp;labelColor=171B20" alt="FINALIST · SEP 2026" />
+
+### Dictionary Reimagined Hackathon
+
+**Office of the Royal Society × NECTEC**
+
+</td>
+</tr>
+</table>
 
 ## A little about me
 
